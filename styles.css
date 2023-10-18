@@ -56,7 +56,7 @@
 * {
     margin: 0;
     padding: 0;
-    font: inherit;
+    /* font: inherit; */
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -191,3 +191,75 @@ select {
 .fs-400 { font-size: var(--fs-400);}
 .fs-500 { font-size: var(--fs-500);}
 .fs-600 { font-size: var(--fs-600);}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 30px; */
+  
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  
+  
+}
+
+
+.even-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 30px; */
+
+}
+
+.even-columns2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 30px; */
+}
+
+.even-columns3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h1 {
+  max-width: 50%;
+}
+
+p {
+  max-width: 50%;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.three-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
